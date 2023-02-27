@@ -38,9 +38,14 @@ Route::prefix('prototype')->name('prototype.')->group(function () {
     route::get('/register', function () {
         return Inertia::render('Prototype/Register');
     })->name('register');
+
     route::get('/dashboard', function () {
         return Inertia::render('Prototype/Dashboard');
     })->name('dashboard');
+
+    route::get('/subscriptionPlan', function () {
+        return Inertia::render('Prototype/SubscriptionPlan');
+    })->name('subscriptionPlan');
 });
 
 Route::middleware('auth')->group(function () {
