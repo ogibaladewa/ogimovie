@@ -24,7 +24,7 @@ Route::get('/user', function () {
     return 'Hi User';
 })->middleware('role:user');
 
-Route::redirect('/', '/prototype/login');
+Route::redirect('/', '/login');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
