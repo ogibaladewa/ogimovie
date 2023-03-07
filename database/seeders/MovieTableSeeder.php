@@ -18,7 +18,7 @@ class MovieTableSeeder extends Seeder
                 'name' => 'The Shawshank Redemption',
                 'slug' => 'the-shawshank-redemption',
                 'category' => 'Drama',
-                'video_url' => 'https://www.youtube.com/watch?v=6h8359bIaco',
+                'video_url' => 'https://www.youtube.com/watch?v=P9mwtI82k6E',
                 'thumbnail' => 'https://upload.wikimedia.org/wikipedia/id/8/81/ShawshankRedemptionMoviePoster.jpg',
                 'rating' =>  4.3,
                 'is_featured' => 1,
