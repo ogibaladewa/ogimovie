@@ -39,7 +39,7 @@ export default function SubcsriptionCard({
                     </div>
 
                     {/* Botto: CTA Button */}
-                    <div>
+                    <div onClick={onSelectSubscription}>
                         <PrimaryButton type="button" variant="white-outline">
                             <span className="text-base">Start {name}</span>
                         </PrimaryButton>
