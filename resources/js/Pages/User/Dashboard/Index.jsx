@@ -14,6 +14,7 @@ export default function Dashboard({ auth, featuredMovies, movies }) {
         prevNextButtons: false,
         draggable: ">1",
     };
+    console.log(auth);
     return (
         <Authenticated auth={auth}>
             <Head>

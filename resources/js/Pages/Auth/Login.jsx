@@ -104,6 +104,7 @@ export default function Login() {
                                     <PrimaryButton
                                         type="button"
                                         variant="light-outline"
+                                        className="w-full"
                                     >
                                         <span className="text-base text-white">
                                             Create New Account
