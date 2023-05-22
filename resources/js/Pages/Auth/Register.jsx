@@ -152,7 +152,10 @@ export default function Register() {
                                 </PrimaryButton>
 
                                 <Link href={route("login")}>
-                                    <PrimaryButton variant="light-outline">
+                                    <PrimaryButton
+                                        variant="light-outline"
+                                        className="w-full"
+                                    >
                                         <span className="text-base text-white">
                                             Sign In to My Account
                                         </span>

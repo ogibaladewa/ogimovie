@@ -7,7 +7,11 @@ export default function Sidebar({ auth }) {
         <aside className="fixed z-50 w-[300px] h-full">
             <div className="flex flex-col p-[30px] pr-0 border-r border-gray-[#F1F1F1] overflow-y-auto h-full">
                 <a href="/">
-                    <img src="/images/moonton.svg" alt="" />
+                    <img
+                        src="/images/ogimovie.png"
+                        alt=""
+                        className="w-[180px]"
+                    />
                 </a>
                 <div className="links flex flex-col mt-[60px] h-full gap-[50px]">
                     <div>
