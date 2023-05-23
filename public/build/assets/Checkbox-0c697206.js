@@ -1,0 +1,1 @@
+import{a as n}from"./app-848fb18b.js";function i({name:r,value:o,handleChange:a,checked:e=!1}){return n("input",{type:"checkbox",name:r,value:o,className:"rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800",onChange:d=>a(d),defaultChecked:e})}export{i as C};
